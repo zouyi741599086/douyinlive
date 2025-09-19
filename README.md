@@ -6,15 +6,18 @@
 抖音直播间互动信息抓取
 
 ### 使用
-1、先安装`node js`，进入node目录执行`npm install`安装依赖，然后执行`node server.js`,需要用node来跑两个js文件
-2、根目录执行`composer install`安装依赖
-3、修改根目录`start.php`里面的三个参数
-方式1：只填写room_id
-	room_id：网页打开抖音，登录后随便进一个直播间，F12查看源码，在Ctrl+F5搜索`roomid`，搜索到第8个的时候就拿到了
-方式2：填写live_id跟cookie
-	live_id：网页打开抖音，随便进一个直播间，url后面的那串数字
-	cookie：网页打开抖音，登录后随便进一个直播间，F12查看源码，在刷新下，把请求网页请求头里面cookie值复制出来
-4、根目录运行`php start.php`
+*   1、先安装`node js`，进入node目录执行`npm install`安装依赖，然后执行`node server.js`,需要用node来跑两个js文件
+
+*   2、根目录执行`composer install`安装依赖
+
+*   3、修改根目录`start.php`里面的三个参数
+	*   方式1：只填写room_id	
+  	----room_id：网页打开抖音，登录后随便进一个直播间，F12查看源码，在Ctrl+F5搜索`roomid`，搜索到第8个的时候就拿到了
+	* 方式2：填写live_id跟cookie
+	----live_id：网页打开抖音，随便进一个直播间，url后面的那串数字
+	----cookie：网页打开抖音，登录后随便进一个直播间，F12查看源码，在刷新下，把请求网页请求头里面cookie值复制出来
+	
+*   4、根目录运行`php start.php`
 
 ### 预览
 ``` sh
