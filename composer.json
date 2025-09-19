@@ -1,0 +1,16 @@
+{
+    "require": {
+        "workerman/workerman": "^5.1",
+        "google/protobuf": "^4.32",
+        "guzzlehttp/guzzle": "^7.10"
+    },
+    "autoload": {
+        "psr-4": {
+            "": "./",
+            "app\\": "./app",
+            "App\\": "./app",
+            "app\\protobuf\\douyin\\": "app/protobuf/douyin/",
+            "app\\protobuf\\GPBMetadata\\": "app/protobuf/GPBMetadata/"
+        }
+    }
+}

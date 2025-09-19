@@ -1,0 +1,6 @@
+/.idea
+/.vscode
+/vendor
+/node/node_modules
+*.log
+/runtime/*
